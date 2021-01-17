@@ -22,7 +22,7 @@ module.exports = override(
     use: [
       {
         loader: process.env.NODE_ENV === 'development'
-          ? 'style-loade'
+          ? 'style-loader'
           : MiniCssExtractPlugin.loader
       },
       {
